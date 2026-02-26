@@ -1,0 +1,2 @@
+SDK_1.0.3_NUCLEO-F401RE-20260225T073314Z-1-001/SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o: \
+ C:/Users/XuanThang/Desktop/SDK_1.0.3_NUCLEO-F401RE-20260225T073314Z-1-001/SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.c
