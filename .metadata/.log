@@ -1,0 +1,191 @@
+!SESSION 2026-02-26 13:50:31.596 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-26 13:50:38.383
+!MESSAGE Log4j2 initialized with config file C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-26 13:50:42.490
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-26 13:50:56.848
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM3
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-26 13:50:56.849
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-26 13:50:56.850
+!MESSAGE port: COM3
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-26 13:52:06.305
+!MESSAGE Indexed 'Bai5_NgoaiViGPIO' (3 sources, 53 headers) in 1.45 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2026-02-26 14:09:59.031 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-26 14:10:03.755
+!MESSAGE Log4j2 initialized with config file C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-26 14:10:10.611
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-26 14:10:24.414
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM3
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-26 14:10:24.414
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-02-26 14:10:24.414
+!MESSAGE port: COM3
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-26 14:13:08.831
+!MESSAGE Indexed 'Bai5' (3 sources, 53 headers) in 0.829 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-26 14:57:47.247
+!MESSAGE Indexed 'Bai5' (3 sources, 53 headers) in 0.447 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.core.resources 4 1 2026-02-26 15:04:32.743
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Bai5_NgoaiViGPIO/.project)[368]: org.eclipse.core.runtime.CoreException: File not found: C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\Bai5_NgoaiViGPIO\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:498)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:490)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:355)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:429)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:710)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1466)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1447)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1204)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1242)
+	at org.eclipse.core.internal.resources.Workspace.move(Workspace.java:2179)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:684)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1061)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1878)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1543)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.NoSuchFileException: C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\Bai5_NgoaiViGPIO\.project
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3281)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:488)
+	... 25 more
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-02-26 15:04:32.747
+!MESSAGE File not found: C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\Bai5_NgoaiViGPIO\.project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\Bai5_NgoaiViGPIO\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:498)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:490)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:355)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:429)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:710)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1466)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1447)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1204)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1242)
+	at org.eclipse.core.internal.resources.Workspace.move(Workspace.java:2179)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:684)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1061)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1878)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1543)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.NoSuchFileException: C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\Bai5_NgoaiViGPIO\.project
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3281)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:488)
+	... 25 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2026-02-26 15:04:32.747
+!MESSAGE File not found: C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\Bai5_NgoaiViGPIO\.project.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\XuanThang\STM32CubeIDE\NguyenPhuongDung_HeThongNhungIoT\Bai5_NgoaiViGPIO\.project
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3281)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:488)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:355)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:429)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:710)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1466)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1447)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1204)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1242)
+	at org.eclipse.core.internal.resources.Workspace.move(Workspace.java:2179)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:684)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1061)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1878)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1543)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-26 15:04:35.378
+!MESSAGE Indexed 'Bai5_NgoaiViGPIO' (7 sources, 64 headers) in 0.626 sec: 3,476 declarations; 6,802 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.019%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-26 15:05:42.569
+!MESSAGE Indexed 'Bai8_CauHinhNgatGPIO' (3 sources, 53 headers) in 0.379 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-26 15:10:22.610
+!MESSAGE Indexed 'Bai11_TongQuanI2C' (3 sources, 53 headers) in 0.336 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-26 15:13:40.229
+!MESSAGE Indexed 'Bai6_LapTrinhThuVienGPIO' (3 sources, 53 headers) in 0.301 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
